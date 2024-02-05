@@ -1,0 +1,11 @@
+.main-section > h1:first-child {
+    padding-top: 0.5rem;
+}
+
+.main-section > h1:first-child, h4 {
+    text-align: center;
+}
+
+.main-section > h4 {
+    margin-bottom: 0.5rem;
+}

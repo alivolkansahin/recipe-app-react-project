@@ -1,0 +1,12 @@
+.main-section > h1:first-child {
+    padding-top: 0.5rem;
+}
+
+.main-section > h1:first-child, h4 {
+    text-align: center;
+}
+
+.home-section > h2{
+    text-align: center;
+    padding-bottom: 0.5rem;
+}

@@ -1,0 +1,54 @@
+.new-recipe-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 0.5rem;
+    padding-bottom: 10px;
+}
+
+.new-recipe-form button{
+    cursor: pointer;
+    margin : 0.5rem auto;
+    padding: 0.5rem 1rem;
+    border-radius: 7%;
+    font-size: large;
+}
+
+.new-recipe-form button:first-child{
+    background-color: rgba(70, 158, 129, 0.822);
+    border: 1px solid green;
+}
+.new-recipe-form button:last-child{
+    background-color: rgba(158, 76, 70, 0.822);
+    border: 1px solid rgb(196, 35, 35);
+}
+
+.new-recipe-form input, .new-recipe-form textarea {
+    padding: 0.5rem;
+}
+
+.new-recipe-form .input-err {
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: brown;
+    text-align: left;
+}
+
+.new-recipe-form .form-control{
+    width: 50%;
+}
+
+.new-recipe-form .form-control > input, textarea{
+    width: 100%;
+}
+
+.edit-buttons-div {
+    display: flex;
+    gap: 1rem;
+}
+
+.new-recipe-form > span:last-child {
+    font-weight: 1000;
+    color: rgba(70, 158, 129, 0.822);
+}

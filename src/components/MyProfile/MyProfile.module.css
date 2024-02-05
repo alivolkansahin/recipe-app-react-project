@@ -1,0 +1,49 @@
+.my-profile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profile-details {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    margin-left: 35%;
+}
+
+.profile-avatar img {
+    border-radius: 10%;
+}
+
+.profile-info {
+    margin-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+.profile-info p {
+    padding-bottom: 1rem;
+}
+
+.fav-recipe-message {
+    text-align: center;
+}
+  
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.favorite-recipes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    opacity: 0;
+    animation: fadeIn 0.75s ease-out forwards;
+    gap: 2rem;
+}
+  

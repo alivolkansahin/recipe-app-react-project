@@ -1,0 +1,37 @@
+.new-recipe-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 0.5rem;
+    padding-bottom: 10px;
+}
+
+.new-recipe-form button{
+    cursor: pointer;
+    background-color: rgba(70, 158, 129, 0.822);
+    margin : 0.5rem auto;
+    border: 1px solid green;
+    padding: 0.5rem 1rem;
+    border-radius: 7%;
+    font-size: large;
+}
+
+.new-recipe-form input, .new-recipe-form textarea {
+    padding: 0.5rem;
+}
+
+.new-recipe-form .input-err {
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: brown;
+    text-align: left;
+}
+
+.new-recipe-form .form-control{
+    width: 25%;
+}
+
+.new-recipe-form .form-control > input, textarea{
+    width: 100%;
+}

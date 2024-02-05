@@ -1,0 +1,129 @@
+.slider {
+    width: 96%;
+    height : 540px;
+    margin: auto;
+    padding-top: 0.5rem;
+    position: relative;
+    border-radius: 2px;
+}
+
+.slide-content {
+    width: auto;
+    height: 100%;
+    border-radius: 2%;  
+}
+
+.slide-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.5rem;
+    transition: 0.2s ease;
+}
+
+.slide-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0.25rem;
+    right: 0.75rem;
+    color: rgb(160, 226, 226);
+    /* background-color: #e8daf3; */
+    border-radius: 20%;
+    font-size: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 1.5rem;
+}
+
+.slide-text {
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+    padding-left: 1rem;
+    width: 28%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slide-text-header > h1 {
+    color: rgb(95, 216, 216);
+}
+
+.slide-text-description > h3 {
+    color: rgb(160, 226, 226);
+}
+
+.slide-progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    background-color: #b471eb;
+    transition: width 0.05s ease-in-out;
+    
+}
+
+.slide-left-arrow, .slide-right-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 45px;
+    cursor: pointer;
+    transition: color 0.3s, opacity 0.3s;  /* Renk ve opaklık için geçiş efekti */
+    color: #07576b; 
+    opacity: 0.5; 
+}
+
+.slide-left-arrow {
+    left: 32px;
+}
+
+.slide-right-arrow {
+    right: 32px;
+}
+
+.slide-left-arrow:hover, .slide-right-arrow:hover {
+    color: #000; 
+    opacity: 0.7; 
+}
+
+.slide-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 0.25rem;
+    text-align: center;
+}
+
+.slide-buttons span {
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin: 0.5rem;
+    height: 0.5rem;
+    width: 2.5rem;
+    background-color: #e8daf3;
+    border-radius: 2%;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.slide-buttons span:hover {
+    background-color: #3dd1eb;
+    transition: 0.3s ease;
+    opacity: 1;
+}
+
+/* css'tekini module.css'e aktarma denemeleri...
+.slide-button:active {
+    opacity: 1;
+}
+
+.slide-button:hover{
+    opacity: 1; 
+}
+*/
+
+

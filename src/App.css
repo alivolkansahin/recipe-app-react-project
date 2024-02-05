@@ -1,0 +1,36 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+#root{
+  background-color: aqua;
+  background-image: linear-gradient(
+      to top,
+      #E3FFF0,
+      #E3FBFF,
+      #E4FFFA,
+      #E3FFE7
+  );
+}
+
+.light{
+  background-color: aqua;
+  background-image: linear-gradient(
+      to top,
+      #E3FFF0,
+      #E3FBFF,
+      #E4FFFA,
+      #E3FFE7
+  );
+}
+.dark{
+  background-color: #333;
+}
+
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar - console açılınca en sağ recipedeki delete için scrollbar açılmasını istemiyorum*/
+}
